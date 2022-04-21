@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>el tablero</title>
+<style type="text/css">
+body {
+	background-color: #313D52;
+}
+body,td,th {
+	color: #FFFFFF;
+}
+</style>
+</head>
+
+<body>
+<h1 align="center" id="h.p_ID_13">El tablero<img src="../images/tablero.png" alt="s" width="256" height="185" align="right" /></h1>
+<p id="h.p_ID_32">Un tablero de ajedrez es un <strong>cuadrado compuesto por 64 casillas</strong> o cuadros y por lo tanto cada lado del tablero tiene ocho casillas (8 x 8 = 64). </p>
+<p id="h.p_ID_34">La mitad de las casillas son <strong>blancas</strong>, y la otra mitad, <strong>negras</strong>, y están dispuestas alternativamente, de modo que cada casilla blanca está rodeada por cuatro casillas negras y viceversa. </p>
+<p><br />
+  <br />
+  <br />
+  <br />
+</p>
+<h2 id="h.p_ID_72_l2" tabindex="-1">
+  <div jscontroller="Ae65rd" jsaction="touchstart:UrsOsc; click:KjsqPd; focusout:QZoaZ; mouseover:y0pDld; mouseout:dq0hvd;fv1Rjc:jbFSOd;CrfLRd:SzACGe;">
+    <div align="center">Colocación del tablero</div>
+  </div>
+</h2>
+<div><p align="justify" id="h.p_enIl5biz5d5s">El tablero de ajedrez se coloca con una <strong>casilla blanca en la esquina derecha</strong> de la fila más cercana al jugador, y las piezas se sitúan como se muestra en el diagrama, con cada reina en la casilla de su propio color.</div>
+<p align="center"><img src="../images/EmbeddedImage.png" width="242" height="221" alt="d" /></p>
+<p align="right"><strong>Bien:</strong> el rey y la dama están en su lugar.<br />
+</p>
+<p align="center"><img src="../images/bueno.png" alt="s" width="255" height="261" align="right" /><img src="../images/mal.png" alt="f" width="252" height="260" align="left" /></p>
+<p align="center"><img src="../images/chess_8nwlkdkf.gif" width="330" height="220" alt="d" /><br />
+</p>
+<p align="center"><br />
+<br />
+</p>
+<div><p align="left"><strong>Mal:</strong> el rey y la dama están cambiados de sitio.<br /></div>
+  <br />
+<h2 id="h.p_ID_109_l" tabindex="-1">
+    <div jscontroller="Ae65rd" jsaction="touchstart:UrsOsc; click:KjsqPd; focusout:QZoaZ; mouseover:y0pDld; mouseout:dq0hvd;fv1Rjc:jbFSOd;CrfLRd:SzACGe;">Nombres de las casillas</div>
+  </h2>
+  <p align="justify" id="h.p_ID_111">Aunque dedicaremos un apartado a <strong>la notación algebraica</strong> es bueno que conozcamos ya la manera en que nos vamos a referir a cada casilla.</p>
+  <p align="justify" id="h.p_ID_113">La notación algebraica se basa en un <strong>sistema de coordenadas de 8 x 8</strong>, nombrándose las <strong>columnas desde la letra &quot;a&quot; a la &quot;h&quot;</strong> y las <strong>filas del &quot;1&quot; al &quot;8&quot;</strong> como en el &quot;juego de los barquitos&quot;.</p>
+  <p align="justify" id="h.p_ID_115">La <strong>fila 1 es la más próxima al jugador blanco </strong>y la fila 8 es la más cercana al jugador negro, <strong>la columna &quot;a&quot; está a la izquierda del blanco y a la derecha del negro</strong>.</p>
+  <p align="justify" id="h.p_ID_117">Es decir, el jugador de las negras ve el orden de las casillas al revés que el blanco, lo cual supone una complicación cuando cambiamos de color, pero con la ventaja de que cada casilla tiene el mismo nombre para ambos jugadores. Por ejemplo, la casilla e1, es donde se coloca el rey blanco al comienzo de la partida y mientras que el rey negro se coloca en e8.</p>
+<p align="justify" id="h.p_ID_119">Los jugadores avanzados no necesitan contar las filas y columnas, por ejemplo al decir e4 no tienen que pensar que es la cuarta fila de la quinta columna, sino es simplemente la casilla de la apertura típica de peón de rey. Con el tiempo aprenderás que cada casilla tiene su personalidad y propiedades y te será más sencillo encontrarlas.</p>
+  <div align="center"><br />
+  </p>
+  <img src="../images/black.png" width="276" height="320" alt="s" />
+</div>
+<table border="0">
+<tr>
+  <td><div align="center"><br />
+      <h2 id="h.p_ID_194_l" tabindex="-1">
+        <div jscontroller="Ae65rd" jsaction="touchstart:UrsOsc; click:KjsqPd; focusout:QZoaZ; mouseover:y0pDld; mouseout:dq0hvd;fv1Rjc:jbFSOd;CrfLRd:SzACGe;">Elementos del tablero </div>
+      </h2>
+      <p id="h.p_ID_196">Considerando a la casilla como elemento unitario, hay asociaciones de casillas cuyo concepto conviene fijar, pues será muy útil para comprender después el movimiento de las piezas. </p>
+      <br />
+<br />
+
+    <table border="0">
+      <tr>
+        <td width="315"><h2 id="h.p_ID_58_l" tabindex="-1">
+          <div jscontroller="Ae65rd" jsaction="touchstart:UrsOsc; click:KjsqPd; focusout:QZoaZ; mouseover:y0pDld; mouseout:dq0hvd;fv1Rjc:jbFSOd;CrfLRd:SzACGe;">
+            <div align="center">Columnas</div>
+          </div>
+        </h2>
+          <p id="h.p_RboanqnLHrYa">Se llama columna a cada franja de ocho casillas que recorre el tablero en sentido vertical. Así que el tablero tiene ocho columnas y cada columna contiene cuatro casillas blancas y cuatro negras.</p>
+          <p>&nbsp;</p></td>
+        <td width="430"><p align="center"><img src="../images/columnas.png" width="262" height="262" alt="s" /></p></td>
+      </tr>
+      <tr>
+        <td><h2 id="h.p_QnFjX5thEDHu_l" tabindex="-1">
+          <div jscontroller="Ae65rd" jsaction="touchstart:UrsOsc; click:KjsqPd; focusout:QZoaZ; mouseover:y0pDld; mouseout:dq0hvd;fv1Rjc:jbFSOd;CrfLRd:SzACGe;">
+            <div align="center">Filas</div>
+          </div>
+        </h2>
+          <p id="h.p_oWhC7_SGEDHv">Cada franja de ocho casillas que recorre el tablero en sentido horizontal se llama fila. El tablero tiene ocho filas, y en cada fila hay cuatro casillas blancas y cuatro negras..</p></td>
+        <td><p align="center"><img src="../images/filas.png" width="262" height="262" alt="s" /></p></td>
+      </tr>
+      <tr>
+        <td><h2 id="h.p_ID_94_l" tabindex="-1">
+          <div jscontroller="Ae65rd" jsaction="touchstart:UrsOsc; click:KjsqPd; focusout:QZoaZ; mouseover:y0pDld; mouseout:dq0hvd;fv1Rjc:jbFSOd;CrfLRd:SzACGe;">
+            <div align="center">Diagonales</div>
+          </div>
+        </h2>
+          <p id="h.p_ljD9C_CjEg9A">Una diagonal es un conjunto de casillas del mismo color, unidas por sus vértices y situadas en línea recta, que recorren el tablero en sentido oblicuo. Habrá, por lo tanto, diagonales blancas (es decir, con todas sus casillas blancas) y diagonales negras (con todas sus casillas negras). Mientras las columnas y filas se componían de un número fijo de casillas (ocho), en las diagonales el número de casillas es variable, con un máximo de ocho en la gran diagonal.</p></td>
+        <td><p align="center"><img src="../images/diagonales.png" width="262" height="262" alt="d" /></p></td>
+      </tr>
+      <tr>
+        <td><h2 id="h.p_ID_138_l2" tabindex="-1">
+          <div jscontroller="Ae65rd" jsaction="touchstart:UrsOsc; click:KjsqPd; focusout:QZoaZ; mouseover:y0pDld; mouseout:dq0hvd;fv1Rjc:jbFSOd;CrfLRd:SzACGe;">
+            <div align="center">Centro</div>
+          </div>
+        </h2>
+          <p id="h.p_ID_140">Las columnas, filas y diagonales son elementos del tablero que están, como veremos más adelante, directamente relacionados con el movimiento de las piezas. Pero aparte de estos elementos puramente geométricos existen otros de carácter más bien estratégico. El más importante de estos últimos es el centro. Así se llama al área de las cuatro casillas centrales, y tiene un gran valor en la lucha, pues su dominio es fundamental. Conviene comprobar que el centro está formado por la intersección de las diagonales más largas (una blanca y otra negra), llamadas también diagonales principales. </p></td>
+        <td><div align="center"><img src="../images/centro.png" width="262" height="262" alt="s" /></div></td>
+      </tr>
+      <tr>
+        <td><h2 id="h.p_ID_212_l" tabindex="-1">
+          <div jscontroller="Ae65rd" jsaction="touchstart:UrsOsc; click:KjsqPd; focusout:QZoaZ; mouseover:y0pDld; mouseout:dq0hvd;fv1Rjc:jbFSOd;CrfLRd:SzACGe;">
+            <div align="center">Bandas o bordes</div>
+          </div>
+        </h2>
+          <p id="h.p_C3DXAx2XEv9O">Se denominan bandas o bordes las filas y columnas que están en contacto con el borde del tablero. Tienen gran importancia en los finales.</p></td>
+        <td><div align="center"><img src="../images/bandas.png" width="262" height="262" alt="sd" /></div></td>
+      </tr>
+      <tr>
+        <td><h2 id="h.p_ID_172_l" tabindex="-1">
+          <div jscontroller="Ae65rd" jsaction="touchstart:UrsOsc; click:KjsqPd; focusout:QZoaZ; mouseover:y0pDld; mouseout:dq0hvd;fv1Rjc:jbFSOd;CrfLRd:SzACGe;">
+            <div align="center">Flancos</div>
+          </div>
+        </h2>
+          <p id="h.p_ID_174"><strong>Si se traza una línea vertical por la mitad del tablero, éste queda dividido en dos mitades o flancos. Se llama flanco de rey al que contiene a los dos reyes al comienzo de la partida, y flanco de dama al que contiene a las damas.</strong></p></td>
+        <td><div align="center"><img src="../images/flancos.jpg" width="286" height="291" alt="sd" /></div></td>
+      </tr>
+    </table>
+  </div></td>
+</tr>
+</table>
+<p align="center"><br />
+  <br />
+  
+</p>
+</body>
+</html>
